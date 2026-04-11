@@ -1,0 +1,12 @@
+{
+    "type": "cataclysm:weapon_fusion",
+    "base": {
+        "item": "minecraft:mace"
+    },
+    "addition": {
+        "item": "mowziesmobs:sculptor_staff"
+    },
+    "result": {
+        "id": "ahfgc:earthquake_hammer"
+    }
+}
