@@ -4,5 +4,33 @@
   "painting.ahutils.broken_heart.title": "\uD83D\uDC94",
   "painting.ahutils.broken_heart.author": "PiglinBrut",
   "painting.ahutils.moon.title": "Moon",
-  "painting.ahutils.moon.author": "PiglinBrut"
+  "painting.ahutils.moon.author": "PiglinBrut",
+
+  "itemGroup.ahutils.ahutils_content": "AHUtils Content",
+
+  "school.ahutils.earth": "Earth",
+
+  "item.ahutils.earthquake_hammer": "Earthquake Hammer",
+  "item.ahutils.earth_upgrade_orb": "Earth Upgrade Orb",
+  "item.ahutils.earth_rune": "Earth Rune",
+  "item.ahutils.sculptor_staff": "Sculptor Staff",
+  "item.ahutils.geomancer_beads": "Geomancer Beads",
+  "item.ahutils.geomancer_robe": "Geomancer Robe",
+  "item.ahutils.geomancer_belt": "Geomancer Belt",
+  "item.ahutils.geomancer_sandals": "Geomancer Sandals",
+
+  "attribute.ahutils.earth_spell_power": "Earth Spell Power",
+  "attribute.ahutils.earth_magic_resist": "Earth Magic Resistance",
+
+  "spell.ahutils.permafrost_gate": "Permafrost Gate",
+  "spell.ahutils.permafrost_gate.description": "Opens a powerful gate of everlasting ice, freezing all who stand nearby.",
+  "spell.ahutils.rock_sling": "Rock Sling",
+  "spell.ahutils.rock_sling.description": "Launches a rock towards your enemy.",
+
+  "ui.ahutils.permafrost_gate_spell_description": "Summons a gate of permafrost.",
+
+  "entity.ahutils.permafrost_gate": "Permafrost Gate",
+
+  "death.attack.ahutils.earth_magic": "%1$s was crushed by earth magic",
+  "death.attack.ahutils.earth_magic.player": "%1$s was crushed by earth magic while trying to escape %2$s"
 }

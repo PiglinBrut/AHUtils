@@ -1,4 +1,4 @@
-package ru.pb.ahutils.util.tools;
+package ru.pb.ahutils.util.item;
 
 import com.bobmowzie.mowziesmobs.server.entity.EntityHandler;
 import com.bobmowzie.mowziesmobs.server.entity.effects.geomancy.EntityFissure;
@@ -27,7 +27,7 @@ import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
-import ru.pb.ahutils.client.RenderEarthquakeHammer;
+import ru.pb.ahutils.client.render.RenderEarthquakeHammer;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.animatable.client.GeoRenderProvider;
 import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;

@@ -1,8 +1,8 @@
-package ru.pb.ahutils.client;
+package ru.pb.ahutils.client.model;
 
 import net.minecraft.resources.ResourceLocation;
 import ru.pb.ahutils.AHUtils;
-import ru.pb.ahutils.util.tools.EarthquakeHammer;
+import ru.pb.ahutils.util.item.EarthquakeHammer;
 import software.bernie.geckolib.model.GeoModel;
 
 public class ModelEarthquakeHammer extends GeoModel<EarthquakeHammer> {

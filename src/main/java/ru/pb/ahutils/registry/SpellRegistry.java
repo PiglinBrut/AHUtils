@@ -4,6 +4,7 @@ import io.redspace.ironsspellbooks.api.spells.AbstractSpell;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import ru.pb.ahutils.AHUtils;
+import ru.pb.ahutils.spells.earth.RockSlingSpell;
 import ru.pb.ahutils.spells.ice.PermafrostGateSpell;
 
 import java.util.function.Supplier;
@@ -22,4 +23,6 @@ public class SpellRegistry {
     }
 
     public static final Supplier<AbstractSpell> PERMAFROST_GATE_SPELL = registerSpell(new PermafrostGateSpell());
+
+    public static final Supplier<AbstractSpell> ROCK_SLING_SPELL = registerSpell(new RockSlingSpell());
 }

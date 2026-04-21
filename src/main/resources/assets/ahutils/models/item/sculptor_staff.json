@@ -1,0 +1,18 @@
+{
+	"parent": "item/handheld",
+	"loader": "neoforge:separate_transforms",
+	"base": {
+		"parent": "ahutils:item/sculptor_staff_in_hand"
+	},
+	"perspectives": {
+		"gui": {
+			"parent": "ahutils:item/sculptor_staff_icon"
+		},
+		"fixed": {
+			"parent": "ahutils:item/sculptor_staff_icon"
+		},
+		"ground": {
+			"parent": "ahutils:item/sculptor_staff_icon"
+		}
+	}
+}

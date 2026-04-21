@@ -200,3 +200,11 @@ idea {
         downloadJavadoc = true
     }
 }
+
+//mixin {
+//    // ВАЖНО: Это имя должно совпадать с именем вашего JSON файла (без .json)
+//    config = "ahutils.mixins.json"
+//
+//    // Добавьте эту строку для отладки
+//    debug.export = true
+//}

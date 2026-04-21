@@ -1,0 +1,36 @@
+{
+  "painting.ahutils.piglinbrut.title": "PiglinBrut",
+  "painting.ahutils.piglinbrut.author": "BeBarankaBe",
+  "painting.ahutils.broken_heart.title": "\uD83D\uDC94",
+  "painting.ahutils.broken_heart.author": "PiglinBrut",
+  "painting.ahutils.moon.title": "Луна",
+  "painting.ahutils.moon.author": "PiglinBrut",
+
+  "itemGroup.ahutils.ahutils_content": "AHUtils Контент",
+
+  "school.ahutils.earth": "Земля",
+
+  "item.ahutils.earthquake_hammer": "Молот Землетрясения",
+  "item.ahutils.earth_upgrade_orb": "Сфера улучшения Земли",
+  "item.ahutils.earth_rune": "Руна Земли",
+  "item.ahutils.sculptor_staff": "Посох Геоманта",
+  "item.ahutils.geomancer_beads": "Бусы Геоманта",
+  "item.ahutils.geomancer_robe": "Роба Геоманта",
+  "item.ahutils.geomancer_belt": "Пояс Геоманта",
+  "item.ahutils.geomancer_sandals": "Сандалии Геоманта",
+
+  "attribute.ahutils.earth_spell_power": "Сила заклинаний Земли",
+  "attribute.ahutils.earth_magic_resist": "Сопротивление магии Земли",
+
+  "spell.ahutils.permafrost_gate": "Врата Вечной Мерзлоты",
+  "spell.ahutils.permafrost_gate.description": "Открывает мощные врата из вечного льда, замораживая всех, кто окажется рядом.",
+  "spell.ahutils.rock_sling": "Каменная Праща",
+  "spell.ahutils.rock_sling.description": "Запускает валун во врага.",
+
+  "ui.ahutils.permafrost_gate_spell_description": "Призывает врата вечной мерзлоты.",
+
+  "entity.ahutils.permafrost_gate": "Врата Вечной Мерзлоты",
+
+  "death.attack.ahutils.earth_magic": "%1$s был раздавлен магией земли",
+  "death.attack.ahutils.earth_magic.player": "%1$s был раздавлен магией земли, пытаясь сбежать от %2$s"
+}
