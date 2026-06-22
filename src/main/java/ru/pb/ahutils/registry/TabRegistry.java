@@ -6,6 +6,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
@@ -29,5 +30,7 @@ public class TabRegistry {
                 entries.accept(ItemRegistry.GEOMANCER_ROBE.get());
                 entries.accept(ItemRegistry.GEOMANCER_BELT.get());
                 entries.accept(ItemRegistry.GEOMANCER_SANDALS.get());
+                entries.accept(ItemRegistry.AIR_UPGRADE_ORB.get());
+                entries.accept(ItemRegistry.AIR_RUNE.get());
             }).withTabsBefore(new ResourceKey[]{CreativeModeTabs.SPAWN_EGGS}).build());
 }

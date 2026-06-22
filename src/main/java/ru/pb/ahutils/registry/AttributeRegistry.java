@@ -34,4 +34,6 @@ public class AttributeRegistry {
 
     public static final DeferredHolder<Attribute, Attribute> EARTH_MAGIC_RESIST = newResistanceAttribute("earth");
     public static final DeferredHolder<Attribute, Attribute> EARTH_SPELL_POWER = newPowerAttribute("earth");
+    public static final DeferredHolder<Attribute, Attribute> AIR_MAGIC_RESIST = newResistanceAttribute("air");
+    public static final DeferredHolder<Attribute, Attribute> AIR_SPELL_POWER = newPowerAttribute("air");
 }

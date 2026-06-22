@@ -30,12 +30,18 @@ public class SchoolRegistry {
     }
 
     public static final ResourceLocation EARTH_RESOURCE = AHUtils.id("earth");
+    public static final ResourceLocation AIR_RESOURCE = AHUtils.id("air");
+
     public static final Supplier<SchoolType> EARTH = registerSchool(new SchoolType(EARTH_RESOURCE, Tags.EARTH_FOCUS, Component.translatable("school.ahutils.earth").withStyle(ChatFormatting.GOLD), AttributeRegistry.EARTH_SPELL_POWER, AttributeRegistry.EARTH_MAGIC_RESIST, SoundRegistry.EARTH_CAST, DamageTypeRegistry.EARTH_MAGIC));
+    public static final Supplier<SchoolType> AIR = registerSchool(new SchoolType(AIR_RESOURCE, Tags.AIR_FOCUS, Component.translatable("school.ahutils.air").withStyle(ChatFormatting.GOLD), AttributeRegistry.AIR_SPELL_POWER, AttributeRegistry.AIR_MAGIC_RESIST, SoundRegistry.AIR_CAST, DamageTypeRegistry.AIR_MAGIC));
 
     public static ResourceKey<UpgradeOrbType> EARTH_SPELL_POWER = ResourceKey.create(UPGRADE_ORB_REGISTRY_KEY, AHUtils.id("earth_power"));
+    public static ResourceKey<UpgradeOrbType> AIR_SPELL_POWER = ResourceKey.create(UPGRADE_ORB_REGISTRY_KEY, AHUtils.id("air_power"));
 
     public static void bootstrap(BootstrapContext<UpgradeOrbType> bootstrap) {
         bootstrap.register(EARTH_SPELL_POWER,
                 new UpgradeOrbType(AttributeRegistry.EARTH_SPELL_POWER, 0.05, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, ItemRegistry.EARTH_UPGRADE_ORB));
+        bootstrap.register(AIR_SPELL_POWER,
+                new UpgradeOrbType(AttributeRegistry.AIR_SPELL_POWER, 0.05, AttributeModifier.Operation.ADD_MULTIPLIED_BASE, ItemRegistry.AIR_UPGRADE_ORB));
     }
 }

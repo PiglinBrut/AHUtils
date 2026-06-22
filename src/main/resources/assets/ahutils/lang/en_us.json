@@ -8,10 +8,13 @@
 
   "itemGroup.ahutils.ahutils_content": "AHUtils Content",
 
+  "school.ahutils.air": "Air",
   "school.ahutils.earth": "Earth",
 
   "item.ahutils.earthquake_hammer": "Earthquake Hammer",
+  "item.ahutils.air_upgrade_orb": "Air Upgrade Orb",
   "item.ahutils.earth_upgrade_orb": "Earth Upgrade Orb",
+  "item.ahutils.air_rune": "Air Rune",
   "item.ahutils.earth_rune": "Earth Rune",
   "item.ahutils.sculptor_staff": "Sculptor Staff",
   "item.ahutils.geomancer_beads": "Geomancer Beads",
@@ -19,6 +22,8 @@
   "item.ahutils.geomancer_belt": "Geomancer Belt",
   "item.ahutils.geomancer_sandals": "Geomancer Sandals",
 
+  "attribute.ahutils.air_spell_power": "Air Spell Power",
+  "attribute.ahutils.air_magic_resist": "Air Magic Resistance",
   "attribute.ahutils.earth_spell_power": "Earth Spell Power",
   "attribute.ahutils.earth_magic_resist": "Earth Magic Resistance",
 
@@ -31,6 +36,8 @@
 
   "entity.ahutils.permafrost_gate": "Permafrost Gate",
 
+  "death.attack.ahutils.air_magic": "%1$s was dissolved by air magic",
+  "death.attack.ahutils.air_magic.player": "%1$s was dissolved by air magic while trying to escape %2$s",
   "death.attack.ahutils.earth_magic": "%1$s was crushed by earth magic",
   "death.attack.ahutils.earth_magic.player": "%1$s was crushed by earth magic while trying to escape %2$s"
 }

@@ -1,13 +1,14 @@
 package ru.pb.ahutils.client.render;
 
 import com.bobmowzie.mowziesmobs.client.render.entity.MowzieGeoArmorRenderer;
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.model.PlayerModel;
+import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.world.entity.EquipmentSlot;
+import software.bernie.geckolib.cache.object.GeoBone;
 import ru.pb.ahutils.client.model.ModelGeomancerArmor;
 import ru.pb.ahutils.util.item.GeomancerArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
 import software.bernie.geckolib.cache.object.BakedGeoModel;
-import software.bernie.geckolib.cache.object.GeoBone;
-
-import java.util.Optional;
 
 public class RenderGeomancerArmor extends MowzieGeoArmorRenderer<GeomancerArmorItem> {
     protected GeoBone beads = null;
@@ -20,14 +21,9 @@ public class RenderGeomancerArmor extends MowzieGeoArmorRenderer<GeomancerArmorI
 
     protected void grabRelevantBones(BakedGeoModel bakedModel) {
         super.grabRelevantBones(bakedModel);
-
-        Optional<GeoBone> beadsOpt = this.model.getBone("prayer_beads");
-        Optional<GeoBone> beltOpt = this.model.getBone("belt");
-        Optional<GeoBone> robeOpt = this.model.getBone("robes");
-
-        this.beads = beadsOpt.orElse(null);
-        this.belt = beltOpt.orElse(null);
-        this.robe = robeOpt.orElse(null);
+        this.beads = this.model.getBone("prayer_beads").orElse(null);
+        this.belt = this.model.getBone("belt").orElse(null);
+        this.robe = this.model.getBone("robes").orElse(null);
     }
 
     public void setAllVisible(boolean pVisible) {
@@ -61,6 +57,21 @@ public class RenderGeomancerArmor extends MowzieGeoArmorRenderer<GeomancerArmorI
                 this.setBoneVisible(this.getRightBootBone(this.model), true);
                 this.setBoneVisible(this.getLeftBootBone(this.model), true);
         }
+    }
 
+    @Override
+    public void applyBoneVisibilityByPart(EquipmentSlot currentSlot,
+                                          ModelPart currentPart,
+                                          HumanoidModel<?> model) {
+        super.applyBoneVisibilityByPart(currentSlot, currentPart, model);
+
+        if (model instanceof PlayerModel<?> playerModel) {
+            playerModel.hat.visible = true;
+            playerModel.jacket.visible = true;
+            playerModel.leftSleeve.visible = true;
+            playerModel.rightSleeve.visible = true;
+            playerModel.leftPants.visible = true;
+            playerModel.rightPants.visible = true;
+        }
     }
 }

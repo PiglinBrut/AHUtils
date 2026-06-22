@@ -12,6 +12,9 @@ import ru.pb.ahutils.entity.PermafrostGate;
 public class EntityRegistry {
     private static final DeferredRegister<EntityType<?>> ENTITIES =
             DeferredRegister.create(Registries.ENTITY_TYPE, AHUtils.MOD_ID);
+    public static void register(IEventBus eventBus) {
+        ENTITIES.register(eventBus);
+    }
 
     public static final DeferredHolder<EntityType<?>, EntityType<PermafrostGate>> PERMAFROST_GATE =
             ENTITIES.register("permafrost_gate", () -> EntityType.Builder
@@ -20,8 +23,4 @@ public class EntityRegistry {
                     .clientTrackingRange(64)
                     .updateInterval(1)
                     .build("permafrost_gate"));
-
-    public static void register(IEventBus eventBus) {
-        ENTITIES.register(eventBus);
-    }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FRF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "tag": "ahutils:air_focus"
+    },
+    "R": {
+      "item": "irons_spellbooks:blank_rune"
+    }
+  },
+  "result": {
+    "id": "ahutils:air_rune",
+    "count": 1
+  }
+}

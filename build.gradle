@@ -128,6 +128,7 @@ dependencies {
     implementation "com.bobmowzie.mowziesmobs:mowziesmobs-1.21.1-1.7.5"
     implementation "com.github.L_Ender.lionfishapi:lionfishapi-2.6"
     implementation "com.github.L_Ender.cataclysm:Cataclysm-1.21.1-3.26"
+    compileOnly "com.gametechbc.gtbcs_geomancy_plus:gtbcs_geomancy_plus-1.1.0-1.21.1"
     // Example optional mod dependency with JEI
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
     // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"

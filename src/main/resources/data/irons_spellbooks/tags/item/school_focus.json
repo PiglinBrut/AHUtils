@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#ahutils:earth_focus"
+    "#ahutils:earth_focus",
+    "#ahutils:air_focus"
   ]
 }

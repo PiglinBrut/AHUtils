@@ -77,8 +77,10 @@ public class AHUtils {
             event.insertAfter(new ItemStack(PLAGUED_BOOTS), ItemRegistry.GEOMANCER_BEADS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
         if (event.getTabKey() == CreativeTabRegistry.MATERIALS_TAB.getKey()) {
-            event.insertAfter(new ItemStack(NATURE_RUNE), ItemRegistry.EARTH_RUNE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.insertAfter(new ItemStack(NATURE_UPGRADE_ORB), ItemRegistry.EARTH_UPGRADE_ORB.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(NATURE_RUNE), ItemRegistry.AIR_RUNE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(ItemRegistry.AIR_RUNE.get()), ItemRegistry.EARTH_RUNE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(NATURE_UPGRADE_ORB), ItemRegistry.AIR_UPGRADE_ORB.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.insertAfter(new ItemStack(ItemRegistry.AIR_UPGRADE_ORB.get()), ItemRegistry.EARTH_UPGRADE_ORB.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
 

@@ -20,4 +20,5 @@ public class SoundRegistry {
     }
 
     public static DeferredHolder<SoundEvent, SoundEvent> EARTH_CAST = registerSoundEvent("cast.generic.earth");
+    public static DeferredHolder<SoundEvent, SoundEvent> AIR_CAST = registerSoundEvent("cast.generic.air");
 }

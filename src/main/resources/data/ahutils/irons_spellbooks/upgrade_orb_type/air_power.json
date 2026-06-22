@@ -1,0 +1,9 @@
+{
+  "amount": 0.05,
+  "attribute": "ahutils:air_spell_power",
+  "containerItem": {
+    "count": 1,
+    "id": "ahutils:air_upgrade_orb"
+  },
+  "operation": "add_multiplied_base"
+}

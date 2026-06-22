@@ -15,8 +15,10 @@ public class DamageTypeRegistry {
     }
 
     public static final ResourceKey<DamageType> EARTH_MAGIC = register("earth_magic");
+    public static final ResourceKey<DamageType> AIR_MAGIC = register("air_magic");
 
     public static void bootstrap(BootstrapContext<DamageType> context) {
         context.register(EARTH_MAGIC, new DamageType(EARTH_MAGIC.location().getPath(), DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER, 0.0F));
+        context.register(AIR_MAGIC, new DamageType(AIR_MAGIC.location().getPath(), DamageScaling.WHEN_CAUSED_BY_LIVING_NON_PLAYER, 0.0F));
     }
 }

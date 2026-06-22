@@ -29,12 +29,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
-import net.neoforged.neoforge.client.model.generators.VariantBlockStateBuilder;
 import org.jetbrains.annotations.Nullable;
 import ru.pb.ahutils.AHUtils;
 import ru.pb.ahutils.registry.SchoolRegistry;
 import ru.pb.ahutils.util.item.SculptorStaffItem;
-import software.bernie.geckolib.animation.Animation;
 
 @AutoSpellConfig
 public class RockSlingSpell extends AbstractSpell {

@@ -29,8 +29,10 @@ public class ItemRegistry {
 //    public static final DeferredItem<Item> SPEAR = ITEMS.register("spear", () -> new SpearItem(Tiers.DIAMOND, new Item.Properties()));
 
     public static final DeferredItem<Item> EARTH_UPGRADE_ORB = ITEMS.register("earth_upgrade_orb", () -> new UpgradeOrbItem(ItemPropertiesHelper.material().rarity(Rarity.UNCOMMON).component(ComponentRegistry.UPGRADE_ORB_TYPE, SchoolRegistry.EARTH_SPELL_POWER)));
+    public static final DeferredItem<Item> AIR_UPGRADE_ORB = ITEMS.register("air_upgrade_orb", () -> new UpgradeOrbItem(ItemPropertiesHelper.material().rarity(Rarity.UNCOMMON).component(ComponentRegistry.UPGRADE_ORB_TYPE, SchoolRegistry.AIR_SPELL_POWER)));
 
-    public static final DeferredHolder<Item, Item> EARTH_RUNE = ITEMS.register("earth_rune", () -> new Item(ItemPropertiesHelper.material()));;
+    public static final DeferredHolder<Item, Item> EARTH_RUNE = ITEMS.register("earth_rune", () -> new Item(ItemPropertiesHelper.material()));
+    public static final DeferredHolder<Item, Item> AIR_RUNE = ITEMS.register("air_rune", () -> new Item(ItemPropertiesHelper.material()));
 
     public static final DeferredItem<ArmorItem> GEOMANCER_BEADS = ITEMS.register("geomancer_beads", () -> new GeomancerArmorItem(ArmorItem.Type.HELMET, (new Item.Properties()).rarity(Rarity.UNCOMMON).durability(ArmorItem.Type.HELMET.getDurability(33))));
     public static final DeferredItem<ArmorItem> GEOMANCER_ROBE = ITEMS.register("geomancer_robe", () -> new GeomancerArmorItem(ArmorItem.Type.CHESTPLATE, (new Item.Properties()).rarity(Rarity.UNCOMMON).durability(ArmorItem.Type.CHESTPLATE.getDurability(33))));

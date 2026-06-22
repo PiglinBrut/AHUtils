@@ -8,10 +8,13 @@
 
   "itemGroup.ahutils.ahutils_content": "AHUtils Контент",
 
+  "school.ahutils.air": "Воздух",
   "school.ahutils.earth": "Земля",
 
   "item.ahutils.earthquake_hammer": "Молот Землетрясения",
+  "item.ahutils.air_upgrade_orb": "Сфера улучшения Воздуха",
   "item.ahutils.earth_upgrade_orb": "Сфера улучшения Земли",
+  "item.ahutils.air_rune": "Руна Воздуха",
   "item.ahutils.earth_rune": "Руна Земли",
   "item.ahutils.sculptor_staff": "Посох Геоманта",
   "item.ahutils.geomancer_beads": "Бусы Геоманта",
@@ -19,6 +22,8 @@
   "item.ahutils.geomancer_belt": "Пояс Геоманта",
   "item.ahutils.geomancer_sandals": "Сандалии Геоманта",
 
+  "attribute.ahutils.air_spell_power": "Сила заклинаний Воздуха",
+  "attribute.ahutils.air_magic_resist": "Сопротивление магии Воздуха",
   "attribute.ahutils.earth_spell_power": "Сила заклинаний Земли",
   "attribute.ahutils.earth_magic_resist": "Сопротивление магии Земли",
 
@@ -31,6 +36,8 @@
 
   "entity.ahutils.permafrost_gate": "Врата Вечной Мерзлоты",
 
+  "death.attack.ahutils.air_magic": "%1$s был растворен магией земли",
+  "death.attack.ahutils.air_magic.player": "%1$s был растворен магией земли, пытаясь сбежать от %2$s",
   "death.attack.ahutils.earth_magic": "%1$s был раздавлен магией земли",
   "death.attack.ahutils.earth_magic.player": "%1$s был раздавлен магией земли, пытаясь сбежать от %2$s"
 }
